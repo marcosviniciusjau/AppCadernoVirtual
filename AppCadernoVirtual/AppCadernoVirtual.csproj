@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Imagens\biologia.png" />
+    <None Remove="Imagens\fisica.png" />
+    <None Remove="Imagens\geografia.png" />
+    <None Remove="Imagens\historia.png" />
+    <None Remove="Imagens\ingles.png" />
+    <None Remove="Imagens\matematica.png" />
+    <None Remove="Imagens\portugues.png" />
+    <None Remove="Imagens\quimica.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Imagens\biologia.png" />
+    <EmbeddedResource Include="Imagens\fisica.png" />
+    <EmbeddedResource Include="Imagens\geografia.png" />
+    <EmbeddedResource Include="Imagens\historia.png" />
+    <EmbeddedResource Include="Imagens\ingles.png" />
+    <EmbeddedResource Include="Imagens\matematica.png" />
+    <EmbeddedResource Include="Imagens\portugues.png" />
+    <EmbeddedResource Include="Imagens\quimica.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Primeiro\InglesPrimeiro.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Primeiro\PortuguesPrimeiro.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="TelaInicial.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

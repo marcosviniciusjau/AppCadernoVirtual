@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.MainPage">
+
+
+    <StackLayout>
+        <Label Text="Qual o ano" FontAttributes="Bold"  VerticalOptions="Center" Grid.Column="1" Grid.Row="0" Padding="-5" />
+        <Button Text="1" Clicked="Escolha1_Clicked"   Grid.Column="0" Grid.Row="1" />
+        <Button Text="2" x:Name="Escolha2" Clicked="Escolha2_Clicked"   Grid.Column="1" Grid.Row="1"/>
+        <Button Text="3" x:Name="Escolha3" Clicked="Escolha3_Clicked"   Grid.Column="1" Grid.Row="2" />
+       
+    </StackLayout>
+
+</ContentPage>
