@@ -30,92 +30,89 @@ namespace AppCadernoVirtual
 
         private void BtnPortuguesSegundo_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new PortuguesPrimeiro());
+            Navigation.PushAsync(new PortuguesSegundo());
         }
 
-        private void BtnPortuguesSegundo_Clicked_1(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new PortuguesPrimeiro());
-        }
 
         private void BtnInglesSegundo_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new PortuguesPrimeiro());
+            Navigation.PushAsync(new InglesSegundo());
         }
 
         private void BtnMatematicaSegundo_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new PortuguesPrimeiro());
+            Navigation.PushAsync(new MatematicaSegundo());
         }
 
         private void BtnQuimicaSegundo_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new PortuguesPrimeiro());
+            Navigation.PushAsync(new QuimicaSegundo());
         }
 
         private void BtnFisicaSegundo_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new PortuguesPrimeiro());
+            Navigation.PushAsync(new FisicaSegundo());
         }
 
         private void BtnBiologiaSegundo_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new PortuguesPrimeiro());
+            Navigation.PushAsync(new BiologiaSegundo());
         }
 
         private void BtnGeografiaSegundo_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new PortuguesPrimeiro());
+            Navigation.PushAsync(new GeografiaSegundo());
         }
 
         private void BtnHistoriaSegundo_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new PortuguesPrimeiro());
+            Navigation.PushAsync(new HistoriaSegundo());
         }
 
         private void BtnEtica_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new PortuguesPrimeiro());
+            Navigation.PushAsync(new Etica());
         }
 
         private void BtnFilosofiaSegundo_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new PortuguesPrimeiro());
+            Navigation.PushAsync(new FilosofiaSegundo());
         }
 
         private void BtnEducacaoFisicaSegundo_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new PortuguesPrimeiro());
+            Navigation.PushAsync(new EducacaoFisicaSegundo());
         }
 
-        private void BtnSociologia_Clicked(object sender, EventArgs e)
+        private void BtnSociologiaSegundo_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new PortuguesPrimeiro());
+            Navigation.PushAsync(new SociologiaSegundo());
         }
 
         private void BtnBD2_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new PortuguesPrimeiro());
+            Navigation.PushAsync(new BD2());
         }
 
         private void BtnPW2_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new PortuguesPrimeiro());
+            Navigation.PushAsync(new PW2());
         }
 
         private void BtnMobile1_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new PortuguesPrimeiro());
+            Navigation.PushAsync(new Mobile1());
         }
 
         private void BtnSistemasEmbarcados_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new PortuguesPrimeiro());
+            Navigation.PushAsync(new SistemasEmbarcados());
         }
 
         private void BtnDesenvolvimento_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new PortuguesPrimeiro());
+            Navigation.PushAsync(new Desenvolvimento());
         }
+
     }
 }
