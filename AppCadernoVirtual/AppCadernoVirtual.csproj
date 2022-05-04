@@ -18,7 +18,14 @@
     <None Remove="Imagens\ingles.png" />
     <None Remove="Imagens\matematica.png" />
     <None Remove="Imagens\portugues.png" />
+    <None Remove="Imagens\primeiro.png" />
     <None Remove="Imagens\quimica.png" />
+    <None Remove="Imagens\segundo.png" />
+    <None Remove="Imagens\terceiro.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Imagens\primeiro.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -30,6 +37,8 @@
     <EmbeddedResource Include="Imagens\matematica.png" />
     <EmbeddedResource Include="Imagens\portugues.png" />
     <EmbeddedResource Include="Imagens\quimica.png" />
+    <EmbeddedResource Include="Imagens\segundo.png" />
+    <EmbeddedResource Include="Imagens\terceiro.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -38,14 +47,93 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Primeiro\BiologiaPrimeiro.xaml.cs">
+      <DependentUpon>BiologiaPrimeiro.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Primeiro\FisicaPrimeiro.xaml.cs">
+      <DependentUpon>FisicaPrimeiro.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Primeiro\GeografiaPrimeiro.xaml.cs">
+      <DependentUpon>GeografiaPrimeiro.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Primeiro\HistoriaPrimeiro.xaml.cs">
+      <DependentUpon>HistoriaPrimeiro.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Primeiro\MatematicaPrimeiro.xaml.cs">
+      <DependentUpon>MatematicaPrimeiro.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Primeiro\QuimicaPrimeiro.xaml.cs">
+      <DependentUpon>QuimicaPrimeiro.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Primeiro\Analise.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Primeiro\Arte.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Primeiro\BD1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Primeiro\BiologiaPrimeiro.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Primeiro\DesignDigital.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Primeiro\EducacaoFisicaPrimeiro.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Primeiro\FilosofiaPrimeiro.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Primeiro\FisicaPrimeiro.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Primeiro\Fundamentos.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Primeiro\GeografiaPrimeiro.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Primeiro\HistoriaPrimeiro.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Primeiro\InglesPrimeiro.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Primeiro\LogicaProgramacao.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Primeiro\MatematicaPrimeiro.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Primeiro\PortuguesPrimeiro.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Primeiro\PW1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Primeiro\QuimicaPrimeiro.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Segundo\PortuguesSegundo.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="TelaInicial.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="TelaInicialSegundo.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="TelaInicialTerceiro.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Terceiro\" />
   </ItemGroup>
 </Project>

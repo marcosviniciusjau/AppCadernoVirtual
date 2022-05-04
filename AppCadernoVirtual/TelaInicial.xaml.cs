@@ -17,14 +17,14 @@ namespace AppCadernoVirtual
         {
             InitializeComponent();
 
-            PortuguesPrimeiro.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.portugues.png");
-            InglesPrimeiro.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.ingles.png");
-            MatematicaPrimeiro.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.matematica.png");
-            QuimicaPrimeiro.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.quimica.png");
-            FisicaPrimeiro.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.fisica.png");
-            BiologiaPrimeiro.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.biologia.png");
-            GeografiaPrimeiro.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.geografia.png");
-            HistoriaPrimeiro.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.historia.png");
+            BtnPortuguesPrimeiro.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.portugues.png");
+            BtnInglesPrimeiro.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.ingles.png");
+            BtnMatematicaPrimeiro.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.matematica.png");
+            BtnQuimicaPrimeiro.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.quimica.png");
+            BtnFisicaPrimeiro.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.fisica.png");
+            BtnBiologiaPrimeiro.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.biologia.png");
+            BtnGeografiaPrimeiro.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.geografia.png");
+            BtnHistoriaPrimeiro.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.historia.png");
             
             NavigationPage.SetHasNavigationBar(this, false);
         }
@@ -41,32 +41,77 @@ namespace AppCadernoVirtual
 
         private void MatematicaPrimeiro_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new InglesPrimeiro());
+            Navigation.PushAsync(new Matematica());
         }
 
         private void QuimicaPrimeiro_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new InglesPrimeiro());
+            Navigation.PushAsync(new Quimica());
         }
 
         private void FisicaPrimeiro_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new InglesPrimeiro());
+            Navigation.PushAsync(new Fisica());
         }
 
         private void BiologiaPrimeiro_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new InglesPrimeiro());
+            Navigation.PushAsync(new Biologia());
         }
 
         private void GeografiaPrimeiro_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new InglesPrimeiro());
+            Navigation.PushAsync(new Geografia());
         }
 
         private void HistoriaPrimeiro_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new InglesPrimeiro());
+            Navigation.PushAsync(new Historia());
+        }
+
+        private void BtnArtePrimeiro_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Arte());
+        }
+
+        private void BtnFilosofiaPrimeiro_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new FilosofiaPrimeiro());
+        }
+
+        private void BtnEducacaoFisicaPrimeiro_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new EducacaoFisicaPrimeiro());
+        }
+
+        private void BtnAnalise_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Analise());
+        }
+
+        private void BtnBD1_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new BD1());
+        }
+
+        private void BtnPW1_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new PW1());
+        }
+
+        private void BtnLogica_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new LogicaProgramacao());
+        }
+
+        private void BtnDesignDigital_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new DesignDigital());
+        }
+
+        private void BtnFundamentos_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Fundamentos());
         }
     }
 }

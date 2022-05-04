@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace AppCadernoVirtual
@@ -13,6 +8,11 @@ namespace AppCadernoVirtual
         public MainPage()
         {
             InitializeComponent();
+            BtnPrimeiro.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.primeiro.png");
+            BtnSegundo.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.segundo.png");
+            BtnTerceiro.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.terceiro.png");
+
+            NavigationPage.SetHasNavigationBar(this, false);
         }
         private void Escolha1_Clicked(object sender, EventArgs e)
         {
