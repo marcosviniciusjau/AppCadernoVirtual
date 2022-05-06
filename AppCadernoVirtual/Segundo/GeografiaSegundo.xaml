@@ -4,9 +4,12 @@
              x:Class="AppCadernoVirtual.Segundo.GeografiaSegundo">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text=" Agricultura pelo mundo
+- Sistemas agrícolas 
+- Agricultura Brasil
+- Climas
+- Biomas "
+ />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

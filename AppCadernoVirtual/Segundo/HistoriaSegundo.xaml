@@ -4,9 +4,16 @@
              x:Class="AppCadernoVirtual.Segundo.HistoriaSegundo">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="- Estados unidos treze colonias 
+- Revoluçao Industrial 
+- a formação das monarquias europeias
+- antigo regime
+- governos gerais 
+- revoltas nativistas 
+- iluminismo 
+- era napoleônica 
+- período regencial
+"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
