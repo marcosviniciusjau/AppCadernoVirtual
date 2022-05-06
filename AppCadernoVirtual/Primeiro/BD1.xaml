@@ -4,9 +4,9 @@
              x:Class="AppCadernoVirtual.Primeiro.BD1">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Banco De dados"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Criação de Bancos por meio de tabelas no Access
+
+"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

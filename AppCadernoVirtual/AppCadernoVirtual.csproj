@@ -47,27 +47,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Primeiro\BiologiaPrimeiro.xaml.cs">
-      <DependentUpon>BiologiaPrimeiro.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Primeiro\FisicaPrimeiro.xaml.cs">
-      <DependentUpon>FisicaPrimeiro.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Primeiro\GeografiaPrimeiro.xaml.cs">
-      <DependentUpon>GeografiaPrimeiro.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Primeiro\HistoriaPrimeiro.xaml.cs">
-      <DependentUpon>HistoriaPrimeiro.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Primeiro\MatematicaPrimeiro.xaml.cs">
-      <DependentUpon>MatematicaPrimeiro.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Primeiro\QuimicaPrimeiro.xaml.cs">
-      <DependentUpon>QuimicaPrimeiro.xaml</DependentUpon>
-    </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
     <EmbeddedResource Update="Primeiro\Analise.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -182,6 +161,12 @@
     <EmbeddedResource Update="Terceiro\BiologiaTerceiro.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Terceiro\EducacaoFisicaTerceiro.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Terceiro\FilosofiaTerceiro.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Terceiro\FisicaTerceiro.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -206,7 +191,19 @@
     <EmbeddedResource Update="Terceiro\PW3.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Terceiro\QualidadeSoftaware.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Terceiro\QuimicaTerceiro.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Terceiro\Redes.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Terceiro\SociologiaTerceiro.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Terceiro\TCC.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

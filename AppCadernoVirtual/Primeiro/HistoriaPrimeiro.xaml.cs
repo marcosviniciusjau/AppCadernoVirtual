@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace AppCadernoVirtual.Primeiro
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Historia : ContentPage
+    public partial class HistoriaPrimeiro : ContentPage
     {
-        public Historia()
+        public HistoriaPrimeiro()
         {
             InitializeComponent();
         }

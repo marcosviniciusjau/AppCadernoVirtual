@@ -4,9 +4,11 @@
              x:Class="AppCadernoVirtual.Primeiro.Fundamentos">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Fundamentos"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Pesquisas
+Componentes de um Computador
+IOT
+Atalhos no teclado
+" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

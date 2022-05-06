@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace AppCadernoVirtual.Primeiro
+namespace AppCadernoVirtual.Terceiro
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class QuimicaPrimeiro : ContentPage
+    public partial class SociologiaTerceiro : ContentPage
     {
-        public QuimicaPrimeiro()
+        public SociologiaTerceiro()
         {
             InitializeComponent();
         }

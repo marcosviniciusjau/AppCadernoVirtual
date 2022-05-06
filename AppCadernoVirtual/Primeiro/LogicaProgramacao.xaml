@@ -4,9 +4,9 @@
              x:Class="AppCadernoVirtual.Primeiro.LogicaProgramacao">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Logica"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Aprendizagem de uma sequência de passos apara que uma ação seja executada
+
+" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

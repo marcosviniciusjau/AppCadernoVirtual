@@ -4,9 +4,9 @@
              x:Class="AppCadernoVirtual.Primeiro.DesignDigital">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Design"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Fireworks
+canva
+" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -4,9 +4,10 @@
              x:Class="AppCadernoVirtual.Primeiro.EducacaoFisicaPrimeiro">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Educacao Fisica"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Esportes
+Ginástica
+lutas"
+ />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

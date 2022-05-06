@@ -32,7 +32,7 @@ namespace AppCadernoVirtual
         {
             try
             {
-                Navigation.PushAsync(new TelaInicial());
+                Navigation.PushAsync(new TelaInicialSegundo());
             }
             catch (Exception ex)
             {
@@ -44,7 +44,7 @@ namespace AppCadernoVirtual
         {
             try
             {
-                Navigation.PushAsync(new TelaInicial());
+                Navigation.PushAsync(new TelaInicialTerceiro());
             }
             catch (Exception ex)
             {

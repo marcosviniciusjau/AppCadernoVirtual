@@ -41,32 +41,32 @@ namespace AppCadernoVirtual
 
         private void MatematicaPrimeiro_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Matematica());
+            Navigation.PushAsync(new MatematicaPrimeiro());
         }
 
         private void QuimicaPrimeiro_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Quimica());
+            Navigation.PushAsync(new QuimicaPrimeiro());
         }
 
         private void FisicaPrimeiro_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Fisica());
+            Navigation.PushAsync(new FisicaPrimeiro());
         }
 
         private void BiologiaPrimeiro_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Biologia());
+            Navigation.PushAsync(new BiologiaPrimeiro());
         }
 
         private void GeografiaPrimeiro_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Geografia());
+            Navigation.PushAsync(new GeografiaPrimeiro());
         }
 
         private void HistoriaPrimeiro_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Historia());
+            Navigation.PushAsync(new HistoriaPrimeiro());
         }
 
         private void BtnArtePrimeiro_Clicked(object sender, EventArgs e)

@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace AppCadernoVirtual.Primeiro
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Matematica : ContentPage
+    public partial class MatematicaPrimeiro : ContentPage
     {
-        public Matematica()
+        public MatematicaPrimeiro()
         {
             InitializeComponent();
         }

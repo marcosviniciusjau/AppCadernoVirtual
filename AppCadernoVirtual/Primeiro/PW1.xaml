@@ -4,9 +4,11 @@
              x:Class="AppCadernoVirtual.Primeiro.PW1">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="PW1"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Criação de sites em html:
+Tabelas
+Botões com Imagens
+Livraria Virtual
+"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

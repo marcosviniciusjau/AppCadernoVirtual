@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppCadernoVirtual.TelaInicial">
     <ContentPage.Content>
-        <StackLayout>
+        <ScrollView>
+            <StackLayout>
 
             <Label Text="Matérias" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" />
             <ImageButton   x:Name="BtnPortuguesPrimeiro" Clicked="PortuguesPrimeiro_Clicked"   Grid.Column="0" Grid.Row="0"/>
@@ -25,5 +26,6 @@
             <ImageButton  x:Name="BtnFundamentos" Clicked="BtnFundamentos_Clicked"   Grid.Column="2" Grid.Row="2"/>
 
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

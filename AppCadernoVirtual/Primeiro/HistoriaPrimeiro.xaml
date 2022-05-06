@@ -1,10 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppCadernoVirtual.Primeiro.Historia">
+             x:Class="AppCadernoVirtual.Primeiro.HistoriaPrimeiro">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Historia"
+            <Label Text="Mesopotâmia e Egito, Grécia Antiga
+Império Romano e Feudalismo
+Europa Moderna
+Política e Economia no Antigo Regime
+"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>

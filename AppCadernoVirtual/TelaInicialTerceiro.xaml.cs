@@ -16,14 +16,14 @@ namespace AppCadernoVirtual
         public TelaInicialTerceiro()
         {
             InitializeComponent();
-            BtnPortuguesSegundo.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.portugues.png");
-            BtnInglesSegundo.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.ingles.png");
-            BtnMatematicaSegundo.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.matematica.png");
-            BtnQuimicaSegundo.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.quimica.png");
-            BtnFisicaSegundo.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.fisica.png");
-            BtnBiologiaSegundo.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.biologia.png");
-            BtnGeografiaSegundo.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.geografia.png");
-            BtnHistoriaSegundo.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.historia.png");
+            BtnPortuguesTerceiro.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.portugues.png");
+            BtnInglesTerceiro.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.ingles.png");
+            BtnMatematicaTerceiro.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.matematica.png");
+            BtnQuimicaTerceiro.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.quimica.png");
+            BtnFisicaTerceiro.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.fisica.png");
+            BtnBiologiaTerceiro.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.biologia.png");
+            BtnGeografiaTerceiro.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.geografia.png");
+            BtnHistoriaTerceiro.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.historia.png");
 
             NavigationPage.SetHasNavigationBar(this, false);
         }
@@ -94,5 +94,19 @@ namespace AppCadernoVirtual
             Navigation.PushAsync(new Mobile2());
         }
 
+        private void BtnTCC_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new TCC());
+        }
+
+        private void BtnRedes_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Redes());
+        }
+
+        private void BtnQualidadeSoftware_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new QualidadeSoftaware());
+        }
     }
 }

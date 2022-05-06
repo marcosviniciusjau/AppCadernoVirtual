@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace AppCadernoVirtual.Primeiro
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Geografia : ContentPage
+    public partial class GeografiaPrimeiro : ContentPage
     {
-        public Geografia()
+        public GeografiaPrimeiro()
         {
             InitializeComponent();
         }
