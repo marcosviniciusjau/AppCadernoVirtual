@@ -4,9 +4,11 @@
              x:Class="AppCadernoVirtual.Terceiro.PortuguesTerceiro">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Sintaxe do período simples
+Pré-modernismo
+Modernismo (1ª Geração)
+Modernismo (2ª Geração)
+" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

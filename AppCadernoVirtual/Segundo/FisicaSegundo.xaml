@@ -4,9 +4,12 @@
              x:Class="AppCadernoVirtual.Segundo.FisicaSegundo">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="- Ondulatoria 
+- Eletrecidade 
+- Termodinamica
+-  Calor e temperatura
+- Calor latente
+"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

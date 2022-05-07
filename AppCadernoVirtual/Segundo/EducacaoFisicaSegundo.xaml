@@ -4,9 +4,10 @@
              x:Class="AppCadernoVirtual.Segundo.EducacaoFisicaSegundo">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="- Corpo e movimento 
+-  Práticas de exercícios 
+- Alongamentos
+"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -4,9 +4,11 @@
              x:Class="AppCadernoVirtual.Terceiro.QuimicaTerceiro">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Energia e transformação química: Combustíveis e ambiente e produção e consumo de energia – Termoquímica.
+Aspectos dinâmicos das transformações: Cinética: rapidez de reações químicas ou velocidade reações químicas;
+Energia e transformação química: A natureza elétrica da matéria; Eletroquímica e Eletrólise
+Modelos quânticos: Radioatividade e energia nuclear; Bombas atômicas e suas consequências; Lixo nuclear; O desastre da desinformação radioativa.
+" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

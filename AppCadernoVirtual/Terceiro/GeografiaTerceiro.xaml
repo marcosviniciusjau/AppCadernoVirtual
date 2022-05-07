@@ -4,9 +4,14 @@
              x:Class="AppCadernoVirtual.Terceiro.GeografiaTerceiro">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Recepção dos alunos e dinâmica de interação. 
+Revisão e contextualização do Tema 3 - A natureza, a técnica e o homem
+A relação do homem dentro da biodiversidade e da homodiversidade. 
+Uma diversidade técnica para uma natureza diversa
+O espaço de antes da Revolução Industrial.
+Diferenças da técnica anterior e no período entre a 1ª e 2ª 
+Revolução Industrial. O espaço brasileiro no momento da sua arrancada industrial.
+" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

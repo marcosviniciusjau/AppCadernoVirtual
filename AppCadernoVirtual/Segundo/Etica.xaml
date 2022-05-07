@@ -4,9 +4,10 @@
              x:Class="AppCadernoVirtual.Segundo.Etica">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="- Etica no ambiente de trabalho
+- Como lidar com situações na vida profissional
+- Dinâmicas 
+" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

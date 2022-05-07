@@ -4,9 +4,7 @@
              x:Class="AppCadernoVirtual.Segundo.Mobile1">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="- Criação de aplicativos para mobile" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

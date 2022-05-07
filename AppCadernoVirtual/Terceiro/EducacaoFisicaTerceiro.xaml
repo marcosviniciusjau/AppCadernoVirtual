@@ -4,9 +4,13 @@
              x:Class="AppCadernoVirtual.Terceiro.EducacaoFisicaTerceiro">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Corpo em movimento: trabalho e lazer
+Atividade física e qualidade de vida
+Papel das mídias na construção de estereótipos
+Políticas públicas e acesso às práticas corporais.
+Práticas corporais e convivência: autonomia e engajamento
+Planejamento e organização de atividades coletivas.
+" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

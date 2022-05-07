@@ -4,9 +4,10 @@
              x:Class="AppCadernoVirtual.Terceiro.TCC">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Estudo do cenário da área profissional: características do setor: O macro e microrregiões avanços tecnológicos; Ciclo de vida do setor; Demandas e tendências futuras da área profissional; Identificação de lacunas (demandas não atendidas plenamente) e de situaçõesproblemas do setor
+Identificação e definição de temas para o TCC: análise das propostas de temas segundo os critérios: pertinência; relevância; viabilidade
+Técnicas de pesquisa: documentação indireta: Pesquisa documental; Pesquisa bibliográfica; Técnicas de fichamento de obras técnicas e científicas; documentação direta: Pesquisa de campo; Pesquisa de laboratório; Observação; Entrevista; Questionário; Técnicas de estruturação de instrumentos de pesquisa de campo: Questionários; Entrevistas; Formulários.
+" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -4,9 +4,10 @@
              x:Class="AppCadernoVirtual.Segundo.SistemasEmbarcados">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="- Utilizar Tinkercad
+- Desenvolver projetos no Arduino 
+- Testar e aplicar projetos na pratica 
+" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

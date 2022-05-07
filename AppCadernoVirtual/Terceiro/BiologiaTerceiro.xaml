@@ -4,9 +4,14 @@
              x:Class="AppCadernoVirtual.Terceiro.BiologiaTerceiro">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Acolhimento, avisos, combinados e apresentação do conteúdo/ competências e habilidades/ métodos avaliativos e de estudo de biologia. 
+Recuperação de conteúdos.
+Revisão de Mitose e meiose - base genética
+Primórdios da genética - Primeira Lei de Mendel - Segunda Lei de Mendel – Hereditariedade
+Genética e Herança: - Estudo de genealogias - Genética e probabilidade - Outros tipos de heranças - Mapeamento gênico
+Biologia Molecular e Biotecnologia - Introdução e aplicações: - Código genético - Mutações e alterações cromossômicas humanas - Engenharia genética - As eras genômicas e pósgenômicas
+
+"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

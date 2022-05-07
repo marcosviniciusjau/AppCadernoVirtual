@@ -4,9 +4,12 @@
              x:Class="AppCadernoVirtual.Terceiro.FisicaTerceiro">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Ondulatória
+Acústica
+Ótica
+Ótica geométrica
+Eletrostática
+" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

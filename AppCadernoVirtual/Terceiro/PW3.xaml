@@ -4,9 +4,9 @@
              x:Class="AppCadernoVirtual.Terceiro.PW3">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Padrão de arquitetura de software Model-ViewController (MVC): Classes Model; Classes View; Classes Controller.
+Utilização de frameworks Model-View-Controller (MVC) para o desenvolvimento Web: Mapeamento objetorelacional; Mapeamento de URL e roteamento; Sistemas de template; Scaffolding.
+" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -4,9 +4,11 @@
              x:Class="AppCadernoVirtual.Terceiro.Redes">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Introdução aos modelos de referência de arquiteturas de redes (OSI/ISO) - Meios de transmissão e topologias de redes; - Modelos de referência de redes.
+Camadas física, de enlace e de rede • Interfaces de rede cabeada e sem fio; • Endereçamento físico, protocolo e endereçamento IP; • Roteamento; • Protocolos de resolução de endereços e obtenção estática e dinâmica de IP; • Tradução de endereços de IP, firewall e proxy
+Camadas física, de enlace e de rede • Interfaces de rede cabeada e sem fio; • Endereçamento físico, protocolo e endereçamento IP; • Roteamento; • Protocolos de resolução de endereços e obtenção estática e dinâmica de IP; • Tradução de endereços de IP, firewall e proxy
+
+" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

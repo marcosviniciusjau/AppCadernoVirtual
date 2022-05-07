@@ -4,9 +4,7 @@
              x:Class="AppCadernoVirtual.Terceiro.MatematicaTerceiro">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Números e Álgebra - Variação de Grandeza: função trigonométrica. / Trigonometria triângulo; circunferência." />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

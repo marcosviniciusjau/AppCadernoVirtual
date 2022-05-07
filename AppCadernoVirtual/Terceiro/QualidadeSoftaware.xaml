@@ -4,9 +4,9 @@
              x:Class="AppCadernoVirtual.Terceiro.QualidadeSoftaware">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Testes de Software: Testes funcionais e não funcionais; Níveis de abstração unidade, integração, sistema, entre outros.
+Processo de teste: Plano de testes; Casos de teste.
+" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

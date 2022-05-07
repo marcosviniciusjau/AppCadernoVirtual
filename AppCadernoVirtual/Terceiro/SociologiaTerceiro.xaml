@@ -4,9 +4,9 @@
              x:Class="AppCadernoVirtual.Terceiro.SociologiaTerceiro">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Influência da tecnologia e dos meios de comunicação na construção da Cultura
+
+"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
