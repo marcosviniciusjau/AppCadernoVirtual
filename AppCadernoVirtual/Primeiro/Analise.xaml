@@ -4,9 +4,7 @@
              x:Class="AppCadernoVirtual.Primeiro.Analise">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Analisar problemas de empresas e solucioná-los por meio de projetos de sistemas
-
-" />
+            <Label Text="Analisar problemas de empresas e solucioná-los por meio de projetos de sistema"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
