@@ -24,6 +24,15 @@ namespace AppCadernoVirtual
             BtnBiologiaSegundo.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.biologia.png");
             BtnGeografiaSegundo.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.geografia.png");
             BtnHistoriaSegundo.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.historia.png");
+            BtnEducacaoFisicaSegundo.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.educacaofisica.png");
+            BtnFilosofiaSegundo.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.filosofia.png");
+            BtnSociologiaSegundo.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.educacaofisica.png");
+            BtnBD2.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.bd.png");
+            BtnPW2.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.pw.png");
+            BtnMobile1.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.mobile.png");
+            BtnDesenvolvimento.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.desenvolvimento.png");
+            BtnSistemasEmbarcados.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.se.png");
+            BtnEtica.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.etica.png");
 
             NavigationPage.SetHasNavigationBar(this, false);
         }

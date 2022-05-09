@@ -8,8 +8,9 @@
         
      <!-- O ScrollView permitirá descer a tela-->   
         <ScrollView>
-
+<!-- O StackLayout os elementos ficam dispostos numa pilha, um após o outro-->
             <StackLayout>
+             <!--Na Grid define-se as linhas e colunas e posiciona os elementos-->
                 <Grid>
             <Label Text="Matérias" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" />
            

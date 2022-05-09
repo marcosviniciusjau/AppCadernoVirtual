@@ -11,20 +11,46 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Imagens\analise.png" />
+    <None Remove="Imagens\arte.png" />
+    <None Remove="Imagens\bd.png" />
     <None Remove="Imagens\biologia.png" />
+    <None Remove="Imagens\desenvolvimento.png" />
+    <None Remove="Imagens\design.png" />
+    <None Remove="Imagens\educacaofisica.png" />
+    <None Remove="Imagens\etica.png" />
+    <None Remove="Imagens\filosofia.png" />
     <None Remove="Imagens\fisica.png" />
     <None Remove="Imagens\geografia.png" />
     <None Remove="Imagens\historia.png" />
     <None Remove="Imagens\ingles.png" />
+    <None Remove="Imagens\logica.png" />
     <None Remove="Imagens\matematica.png" />
+    <None Remove="Imagens\mobile.png" />
     <None Remove="Imagens\portugues.png" />
     <None Remove="Imagens\primeiro.png" />
+    <None Remove="Imagens\pw.png" />
+    <None Remove="Imagens\qualidade.png" />
     <None Remove="Imagens\quimica.png" />
+    <None Remove="Imagens\redes.png" />
+    <None Remove="Imagens\se.png" />
     <None Remove="Imagens\segundo.png" />
+    <None Remove="Imagens\sociologia.png" />
+    <None Remove="Imagens\tcc.png" />
     <None Remove="Imagens\terceiro.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Imagens\analise.png" />
+    <EmbeddedResource Include="Imagens\arte.png" />
+    <EmbeddedResource Include="Imagens\bd.png" />
+    <EmbeddedResource Include="Imagens\desenvolvimento.png" />
+    <EmbeddedResource Include="Imagens\design.png" />
+    <EmbeddedResource Include="Imagens\educacaofisica.png" />
+    <EmbeddedResource Include="Imagens\etica.png" />
+    <EmbeddedResource Include="Imagens\filosofia.png" />
+    <EmbeddedResource Include="Imagens\logica.png" />
+    <EmbeddedResource Include="Imagens\mobile.png" />
     <EmbeddedResource Include="Imagens\primeiro.png" />
   </ItemGroup>
 
@@ -36,8 +62,14 @@
     <EmbeddedResource Include="Imagens\ingles.png" />
     <EmbeddedResource Include="Imagens\matematica.png" />
     <EmbeddedResource Include="Imagens\portugues.png" />
+    <EmbeddedResource Include="Imagens\pw.png" />
+    <EmbeddedResource Include="Imagens\qualidade.png" />
     <EmbeddedResource Include="Imagens\quimica.png" />
+    <EmbeddedResource Include="Imagens\redes.png" />
+    <EmbeddedResource Include="Imagens\se.png" />
     <EmbeddedResource Include="Imagens\segundo.png" />
+    <EmbeddedResource Include="Imagens\sociologia.png" />
+    <EmbeddedResource Include="Imagens\tcc.png" />
     <EmbeddedResource Include="Imagens\terceiro.png" />
   </ItemGroup>
 
