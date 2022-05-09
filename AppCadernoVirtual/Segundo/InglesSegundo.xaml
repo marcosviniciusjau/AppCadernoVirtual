@@ -4,9 +4,7 @@
              x:Class="AppCadernoVirtual.Segundo.InglesSegundo">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Ementa: Desenvolvimento de habilidades em língua inglesa por meio de atividades integradas: compreensão e produção oral e escrita. Leitura, interpretação e produção de textos (literários e não literários). Tradução e associação de tradução de textos e músicas. Discussão de temas transversais." />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

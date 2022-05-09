@@ -21,10 +21,12 @@
     <None Remove="Imagens\etica.png" />
     <None Remove="Imagens\filosofia.png" />
     <None Remove="Imagens\fisica.png" />
+    <None Remove="Imagens\fundamentos.png" />
     <None Remove="Imagens\geografia.png" />
     <None Remove="Imagens\historia.png" />
     <None Remove="Imagens\ingles.png" />
     <None Remove="Imagens\logica.png" />
+    <None Remove="Imagens\logo.png" />
     <None Remove="Imagens\matematica.png" />
     <None Remove="Imagens\mobile.png" />
     <None Remove="Imagens\portugues.png" />
@@ -49,7 +51,9 @@
     <EmbeddedResource Include="Imagens\educacaofisica.png" />
     <EmbeddedResource Include="Imagens\etica.png" />
     <EmbeddedResource Include="Imagens\filosofia.png" />
+    <EmbeddedResource Include="Imagens\fundamentos.png" />
     <EmbeddedResource Include="Imagens\logica.png" />
+    <EmbeddedResource Include="Imagens\logo.png" />
     <EmbeddedResource Include="Imagens\mobile.png" />
     <EmbeddedResource Include="Imagens\primeiro.png" />
   </ItemGroup>

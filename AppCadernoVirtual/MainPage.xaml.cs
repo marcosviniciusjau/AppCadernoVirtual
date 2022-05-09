@@ -9,6 +9,7 @@ namespace AppCadernoVirtual
         {
             InitializeComponent();
             //O BtnPrimeiro.Source armazenará a imagem do botão
+            logo.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.logo.png");
             BtnPrimeiro.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.primeiro.png");
             BtnSegundo.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.segundo.png");
             BtnTerceiro.Source = ImageSource.FromResource("AppCadernoVirtual.Imagens.terceiro.png");

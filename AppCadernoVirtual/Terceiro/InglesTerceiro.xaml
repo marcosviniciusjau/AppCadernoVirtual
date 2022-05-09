@@ -4,9 +4,11 @@
              x:Class="AppCadernoVirtual.Terceiro.InglesTerceiro">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="LISTENING. Fonemas da língua inglesa. Spelling. ...
+ORAL PRODUCTION. Uso de adjetivos e substantivos (inversão da ordem no inglês) Question tags. ...
+READING. Relações semânticas. Conditional clauses. ...
+READING. Aspectos linguísticos da construção dos gêneros. ...
+WRITING. Vocabulário."/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

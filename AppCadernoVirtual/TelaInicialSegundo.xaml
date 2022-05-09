@@ -3,27 +3,38 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppCadernoVirtual.TelaInicialSegundo">
     <ContentPage.Content>
-        <StackLayout>
+        <!-- O ScrollView permitirá descer a tela-->
+        <ScrollView>
+            <!-- O StackLayout os elementos ficam dispostos numa pilha, um após o outro-->
+            <StackLayout>
+                <Label Text="Matérias do Segundo" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" />
 
-            <Label Text="Matérias do Segundo" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" />
-            <ImageButton   x:Name="BtnPortuguesSegundo" Clicked="BtnPortuguesSegundo_Clicked"   Grid.Column="0" Grid.Row="0"/>
-            <ImageButton  x:Name="BtnInglesSegundo" Clicked="BtnInglesSegundo_Clicked"   Grid.Column="0" Grid.Row="1"/>
-            <ImageButton  x:Name="BtnMatematicaSegundo" Clicked="BtnMatematicaSegundo_Clicked"   Grid.Column="0" Grid.Row="3"/>
-            <ImageButton  x:Name="BtnQuimicaSegundo" Clicked="BtnQuimicaSegundo_Clicked"   Grid.Column="1" Grid.Row="1"/>
-            <ImageButton  x:Name="BtnFisicaSegundo" Clicked="BtnFisicaSegundo_Clicked"   Grid.Column="1" Grid.Row="2"/>
-            <ImageButton  x:Name="BtnBiologiaSegundo" Clicked="BtnBiologiaSegundo_Clicked"   Grid.Column="1" Grid.Row="3"/>
-            <ImageButton  x:Name="BtnGeografiaSegundo" Clicked="BtnGeografiaSegundo_Clicked"   Grid.Column="2" Grid.Row="1"/>
-            <ImageButton  x:Name="BtnHistoriaSegundo" Clicked="BtnHistoriaSegundo_Clicked"   Grid.Column="2" Grid.Row="2"/>
-            <ImageButton   x:Name="BtnEtica" Clicked="BtnEtica_Clicked"  Grid.Column="0" Grid.Row="0"/>
-            <ImageButton  x:Name="BtnFilosofiaSegundo" Clicked="BtnFilosofiaSegundo_Clicked"   Grid.Column="0" Grid.Row="1"/>
-            <ImageButton  x:Name="BtnEducacaoFisicaSegundo" Clicked="BtnEducacaoFisicaSegundo_Clicked"   Grid.Column="0" Grid.Row="3"/>
-            <ImageButton  x:Name="BtnSociologiaSegundo" Clicked="BtnSociologiaSegundo_Clicked"  Grid.Column="1" Grid.Row="1"/>
-            <ImageButton  x:Name="BtnBD2" Clicked="BtnBD2_Clicked"  Grid.Column="1" Grid.Row="2"/>
-            <ImageButton  x:Name="BtnPW2" Clicked="BtnPW2_Clicked" Grid.Column="1" Grid.Row="3"/>
-            <ImageButton  x:Name="BtnMobile1" Clicked="BtnMobile1_Clicked" Grid.Column="2" Grid.Row="1"/>
-            <ImageButton  x:Name="BtnSistemasEmbarcados" Clicked="BtnSistemasEmbarcados_Clicked"  Grid.Column="2" Grid.Row="2"/>
-            <ImageButton  x:Name="BtnDesenvolvimento" Clicked="BtnDesenvolvimento_Clicked"  Grid.Column="2" Grid.Row="2"/>
+                <!--Na Grid define-se as linhas e colunas e posiciona os elementos-->
+                <Grid>
 
-        </StackLayout>
+                    <!-- O ImageButton será o botão no formato de uma imagem. 
+            O x:Name será o nome dele. O clicked será o evento que ao clicar levará a uma nova página. 
+            O Grid.Column irá definir a posição vertical do botão e o Grid.Rows a posição horizontal-->
+
+                   <ImageButton   x:Name="BtnPortuguesSegundo" Clicked="BtnPortuguesSegundo_Clicked"   Grid.Column="0" Grid.Row="0"/>
+                    <ImageButton  x:Name="BtnInglesSegundo" Clicked="BtnInglesSegundo_Clicked"   Grid.Column="0" Grid.Row="1"/>
+                    <ImageButton  x:Name="BtnMatematicaSegundo" Clicked="BtnMatematicaSegundo_Clicked"   Grid.Column="0" Grid.Row="2"/>
+                    <ImageButton  x:Name="BtnQuimicaSegundo" Clicked="BtnQuimicaSegundo_Clicked"   Grid.Column="0" Grid.Row="3"/>
+                    <ImageButton  x:Name="BtnFisicaSegundo" Clicked="BtnFisicaSegundo_Clicked"   Grid.Column="0" Grid.Row="4"/>
+                    <ImageButton  x:Name="BtnBiologiaSegundo" Clicked="BtnBiologiaSegundo_Clicked"   Grid.Column="0" Grid.Row="5"/>
+                    <ImageButton  x:Name="BtnGeografiaSegundo" Clicked="BtnGeografiaSegundo_Clicked"   Grid.Column="1" Grid.Row="0"/>
+                    <ImageButton  x:Name="BtnHistoriaSegundo" Clicked="BtnHistoriaSegundo_Clicked"   Grid.Column="1" Grid.Row="1"/>
+                    <ImageButton   x:Name="BtnEtica" Clicked="BtnEtica_Clicked"  Grid.Column="1" Grid.Row="2"/>
+                    <ImageButton  x:Name="BtnFilosofiaSegundo" Clicked="BtnFilosofiaSegundo_Clicked"   Grid.Column="1" Grid.Row="3"/>
+                    <ImageButton  x:Name="BtnEducacaoFisicaSegundo" Clicked="BtnEducacaoFisicaSegundo_Clicked"   Grid.Column="1" Grid.Row="4"/>
+                    <ImageButton  x:Name="BtnSociologiaSegundo" Clicked="BtnSociologiaSegundo_Clicked"  Grid.Column="1" Grid.Row="5"/>
+                    <ImageButton  x:Name="BtnBD2" Clicked="BtnBD2_Clicked"  Grid.Column="2" Grid.Row="0"/>
+                    <ImageButton  x:Name="BtnPW2" Clicked="BtnPW2_Clicked" Grid.Column="2" Grid.Row="1"/>
+                    <ImageButton  x:Name="BtnMobile1" Clicked="BtnMobile1_Clicked" Grid.Column="2" Grid.Row="2"/>
+                    <ImageButton  x:Name="BtnSistemasEmbarcados" Clicked="BtnSistemasEmbarcados_Clicked"  Grid.Column="2" Grid.Row="3"/>
+                    <ImageButton  x:Name="BtnDesenvolvimento" Clicked="BtnDesenvolvimento_Clicked"  Grid.Column="2" Grid.Row="4"/>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

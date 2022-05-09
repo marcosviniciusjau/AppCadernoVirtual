@@ -2,14 +2,17 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppCadernoVirtual.MainPage">
+    <ContentPage.Content>
 
-
-    <StackLayout>
-        <Label Text="Qual o ano?" FontAttributes="Bold"  FontSize="Large" VerticalOptions="Center" Grid.Column="1" Grid.Row="0" Padding="-5" />
-        <ImageButton   x:Name="BtnPrimeiro" Clicked="Escolha1_Clicked"   Grid.Column="0" Grid.Row="0"/>
-        <ImageButton   x:Name="BtnSegundo" Clicked="Escolha2_Clicked"   Grid.Column="0" Grid.Row="0"/>
-        <ImageButton   x:Name="BtnTerceiro" Clicked="Escolha3_Clicked"   Grid.Column="0" Grid.Row="0"/>
-        
-    </StackLayout>
-
+        <StackLayout>
+            <Grid>
+                <!-- O image armazenará a imagem. O Vertical e o Horizontal Options irá definir a posição da imagem. O Grid.Row irá definir a posição da linha e o Grid.Column a posição da Coluna -->
+                <Image x:Name="logo" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                <Label Text="Qual o ano?" FontFamily="Arial" FontAttributes="Bold"  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" FontSize="Title" Grid.Row="1" Grid.Column="0" />
+                <ImageButton   x:Name="BtnPrimeiro"  Clicked="Escolha1_Clicked"   Grid.Column="0" Grid.Row="2"/>
+                <ImageButton   x:Name="BtnSegundo" Clicked="Escolha2_Clicked"   Grid.Column="0" Grid.Row="3"/>
+                <ImageButton   x:Name="BtnTerceiro" Clicked="Escolha3_Clicked"   Grid.Column="0" Grid.Row="4"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
 </ContentPage>
