@@ -4,10 +4,8 @@
              x:Class="AppCadernoVirtual.Primeiro.PortuguesPrimeiro">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Estudo da Língua/ Trovadorismo
-             Humanismo, Classicismo, Quinhentismo
-             Radicais e Prefixos/ Barroco e Arcadismo
-             Verbos / romantismo" />
+            <Label Text="Estudo da Língua/Trovadorismo Humanismo, Classicismo, Quinhentismo Radicais e Prefixos/Barroco e Arcadismo
+             Verbos/romantismo" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

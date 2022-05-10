@@ -6,33 +6,34 @@
         <!-- O ScrollView permitirá descer a tela-->
         <ScrollView>
             <!-- O StackLayout os elementos ficam dispostos numa pilha, um após o outro-->
-            <StackLayout>
+            <StackLayout BackgroundColor="Beige">
                 <Label Text="Matérias do Terceiro" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" />
 
                 <!--Na Grid define-se as linhas e colunas e posiciona os elementos-->
-                <Grid>
+                <Grid >
 
                     <!-- O ImageButton será o botão no formato de uma imagem. 
             O x:Name será o nome dele. O clicked será o evento que ao clicar levará a uma nova página. 
             O Grid.Column irá definir a posição vertical do botão e o Grid.Rows a posição horizontal-->
 
 
-                    <ImageButton   x:Name="BtnPortuguesTerceiro" Clicked="BtnPortuguesTerceiro_Clicked"   Grid.Column="0" Grid.Row="0"/>
-                    <ImageButton  x:Name="BtnInglesTerceiro" Clicked="BtnInglesTerceiro_Clicked"   Grid.Column="0" Grid.Row="1"/>
-                    <ImageButton  x:Name="BtnMatematicaTerceiro" Clicked="BtnMatematicaTerceiro_Clicked"   Grid.Column="0" Grid.Row="2"/>
-                    <ImageButton  x:Name="BtnQuimicaTerceiro" Clicked="BtnQuimicaTerceiro_Clicked"   Grid.Column="0" Grid.Row="3"/>
-                    <ImageButton  x:Name="BtnFisicaTerceiro" Clicked="BtnFisicaTerceiro_Clicked"   Grid.Column="0" Grid.Row="4"/>
-                    <ImageButton  x:Name="BtnBiologiaTerceiro" Clicked="BtnBiologiaTerceiro_Clicked"   Grid.Column="0" Grid.Row="5"/>
-                    <ImageButton  x:Name="BtnGeografiaTerceiro" Clicked="BtnGeografiaTerceiro_Clicked"   Grid.Column="1" Grid.Row="0"/>
-                    <ImageButton  x:Name="BtnHistoriaTerceiro" Clicked="BtnHistoriaTerceiro_Clicked"   Grid.Column="1" Grid.Row="1"/>
-                    <ImageButton  x:Name="BtnFilosofiaTerceiro" Clicked="BtnFilosofiaTerceiro_Clicked"   Grid.Column="1" Grid.Row="2"/>
-                    <ImageButton  x:Name="BtnEducacaoFisicaTerceiro" Clicked="BtnEducacaoFisicaTerceiro_Clicked"   Grid.Column="1" Grid.Row="3"/>
-                    <ImageButton  x:Name="BtnSociologiaTerceiro" Clicked="BtnSociologiaTerceiro_Clicked"  Grid.Column="1" Grid.Row="4"/>
-                    <ImageButton  x:Name="BtnPW3" Clicked="BtnPW3_Clicked" Grid.Column="2" Grid.Row="0"/>
-                    <ImageButton  x:Name="BtnMobile2" Clicked="BtnMobile2_Clicked" Grid.Column="2" Grid.Row="1"/>
-                    <ImageButton  x:Name="BtnTCC" Clicked="BtnTCC_Clicked"  Grid.Column="2" Grid.Row="2"/>
-                    <ImageButton  x:Name="BtnRedes" Clicked="BtnRedes_Clicked"  Grid.Column="2" Grid.Row="3"/>
-                    <ImageButton  x:Name="BtnQualidadeSoftware" Clicked="BtnQualidadeSoftware_Clicked"  Grid.Column="2" Grid.Row="4"/>
+                    <ImageButton  BackgroundColor="Transparent" HeightRequest="100" 
+                             WidthRequest="235"  x:Name="BtnPortuguesTerceiro" Clicked="BtnPortuguesTerceiro_Clicked"   Grid.Column="0" Grid.Row="0"/>
+                    <ImageButton BackgroundColor="Transparent" x:Name="BtnInglesTerceiro" Clicked="BtnInglesTerceiro_Clicked"   Grid.Column="0" Grid.Row="1"/>
+                    <ImageButton BackgroundColor="Transparent" x:Name="BtnMatematicaTerceiro" Clicked="BtnMatematicaTerceiro_Clicked"   Grid.Column="0" Grid.Row="2"/>
+                    <ImageButton BackgroundColor="Transparent" x:Name="BtnQuimicaTerceiro" Clicked="BtnQuimicaTerceiro_Clicked"   Grid.Column="0" Grid.Row="3"/>
+                    <ImageButton BackgroundColor="Transparent" x:Name="BtnFisicaTerceiro" Clicked="BtnFisicaTerceiro_Clicked"   Grid.Column="0" Grid.Row="4"/>
+                    <ImageButton BackgroundColor="Transparent" x:Name="BtnBiologiaTerceiro" Clicked="BtnBiologiaTerceiro_Clicked"   Grid.Column="0" Grid.Row="5"/>
+                    <ImageButton BackgroundColor="Transparent" x:Name="BtnGeografiaTerceiro" Clicked="BtnGeografiaTerceiro_Clicked"   Grid.Column="1" Grid.Row="0"/>
+                    <ImageButton BackgroundColor="Transparent" x:Name="BtnHistoriaTerceiro" Clicked="BtnHistoriaTerceiro_Clicked"   Grid.Column="1" Grid.Row="1"/>
+                    <ImageButton BackgroundColor="Transparent" x:Name="BtnFilosofiaTerceiro" Clicked="BtnFilosofiaTerceiro_Clicked"   Grid.Column="1" Grid.Row="2"/>
+                    <ImageButton BackgroundColor="Transparent" x:Name="BtnEducacaoFisicaTerceiro" Clicked="BtnEducacaoFisicaTerceiro_Clicked"   Grid.Column="1" Grid.Row="3"/>
+                    <ImageButton BackgroundColor="Transparent" x:Name="BtnSociologiaTerceiro" Clicked="BtnSociologiaTerceiro_Clicked"  Grid.Column="1" Grid.Row="4"/>
+                    <ImageButton BackgroundColor="Transparent" x:Name="BtnPW3" Clicked="BtnPW3_Clicked" Grid.Column="2" Grid.Row="0"/>
+                    <ImageButton BackgroundColor="Transparent" x:Name="BtnMobile2" Clicked="BtnMobile2_Clicked" Grid.Column="2" Grid.Row="1"/>
+                    <ImageButton BackgroundColor="Transparent" x:Name="BtnTCC" Clicked="BtnTCC_Clicked"  Grid.Column="2" Grid.Row="2"/>
+                    <ImageButton BackgroundColor="Transparent" x:Name="BtnRedes" Clicked="BtnRedes_Clicked"  Grid.Column="2" Grid.Row="3"/>
+                    <ImageButton BackgroundColor="Transparent" x:Name="BtnQualidadeSoftware" Clicked="BtnQualidadeSoftware_Clicked"  Grid.Column="2" Grid.Row="4"/>
                 </Grid>
             </StackLayout>
         </ScrollView>

@@ -9,7 +9,7 @@
      <!-- O ScrollView permitirá descer a tela-->   
         <ScrollView>
 <!-- O StackLayout os elementos ficam dispostos numa pilha, um após o outro-->
-            <StackLayout>
+            <StackLayout BackgroundColor="Beige">
                 <!--A label irá armezar o texto. O FontSize definirá o tamanho.O FontAttributes irá definir os atributos da fonte como negrito por exemplo.O Vertical e o Horizontal TextAlignment irá definir a posição do texto-->
                 <Label Text="Matérias do Primeiro" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" />
 
@@ -19,24 +19,25 @@
             <!-- O ImageButton será o botão no formato de uma imagem. 
             O x:Name será o nome dele. O clicked será o evento que ao clicar levará a uma nova página. 
             O Grid.Column irá definir a posição vertical do botão e o Grid.Rows a posição horizontal-->
-                    
-            <ImageButton   x:Name="BtnPortuguesPrimeiro" Clicked="PortuguesPrimeiro_Clicked"   Grid.Column="0" Grid.Row="0"/>
-            <ImageButton  x:Name="BtnInglesPrimeiro" Clicked="InglesPrimeiro_Clicked"   Grid.Column="0" Grid.Row="1"/>
-            <ImageButton  x:Name="BtnMatematicaPrimeiro" Clicked="MatematicaPrimeiro_Clicked"   Grid.Column="0" Grid.Row="2"/>
-            <ImageButton  x:Name="BtnQuimicaPrimeiro" Clicked="QuimicaPrimeiro_Clicked"   Grid.Column="1" Grid.Row="0"/>
-            <ImageButton  x:Name="BtnFisicaPrimeiro" Clicked="FisicaPrimeiro_Clicked"   Grid.Column="1" Grid.Row="1"/>
-            <ImageButton  x:Name="BtnBiologiaPrimeiro" Clicked="BiologiaPrimeiro_Clicked"   Grid.Column="1" Grid.Row="2"/>
-            <ImageButton  x:Name="BtnGeografiaPrimeiro" Clicked="GeografiaPrimeiro_Clicked"   Grid.Column="2" Grid.Row="0"/>
-            <ImageButton  x:Name="BtnHistoriaPrimeiro" Clicked="HistoriaPrimeiro_Clicked"   Grid.Column="2" Grid.Row="1"/>
-            <ImageButton   x:Name="BtnArtePrimeiro" Clicked="BtnArtePrimeiro_Clicked"   Grid.Column="2" Grid.Row="2"/>
-            <ImageButton  x:Name="BtnFilosofiaPrimeiro" Clicked="BtnFilosofiaPrimeiro_Clicked"   Grid.Column="0" Grid.Row="3"/>
-            <ImageButton  x:Name="BtnEducacaoFisicaPrimeiro" Clicked="BtnEducacaoFisicaPrimeiro_Clicked"   Grid.Column="1" Grid.Row="3"/>
-            <ImageButton  x:Name="BtnAnalise" Clicked="BtnAnalise_Clicked"   Grid.Column="2" Grid.Row="3"/>
-            <ImageButton  x:Name="BtnBD1" Clicked="BtnBD1_Clicked"  Grid.Column="0" Grid.Row="4"/>
-            <ImageButton  x:Name="BtnPW1" Clicked="BtnPW1_Clicked"   Grid.Column="1" Grid.Row="4"/>
-            <ImageButton  x:Name="BtnLogica" Clicked="BtnLogica_Clicked"  Grid.Column="2" Grid.Row="4"/>
-            <ImageButton  x:Name="BtnDesignDigital" Clicked="BtnDesignDigital_Clicked"  Grid.Column="0" Grid.Row="5"/>
-            <ImageButton  x:Name="BtnFundamentos" Clicked="BtnFundamentos_Clicked"   Grid.Column="1" Grid.Row="5"/>
+
+                    <ImageButton BackgroundColor="Transparent" HeightRequest="100" 
+                             WidthRequest="235" x:Name="BtnPortuguesPrimeiro" Clicked="PortuguesPrimeiro_Clicked"   Grid.Column="0" Grid.Row="0"/>
+                    <ImageButton  BackgroundColor="Transparent" x:Name="BtnInglesPrimeiro" Clicked="InglesPrimeiro_Clicked"   Grid.Column="0" Grid.Row="1"/>
+                    <ImageButton  BackgroundColor="Transparent" x:Name="BtnMatematicaPrimeiro" Clicked="MatematicaPrimeiro_Clicked"   Grid.Column="0" Grid.Row="2"/>
+                    <ImageButton  BackgroundColor="Transparent" x:Name="BtnQuimicaPrimeiro" Clicked="QuimicaPrimeiro_Clicked"   Grid.Column="1" Grid.Row="0"/>
+                    <ImageButton BackgroundColor="Transparent" x:Name="BtnFisicaPrimeiro" Clicked="FisicaPrimeiro_Clicked"   Grid.Column="1" Grid.Row="1"/>
+                    <ImageButton BackgroundColor="Transparent" x:Name="BtnBiologiaPrimeiro" Clicked="BiologiaPrimeiro_Clicked"   Grid.Column="1" Grid.Row="2"/>
+                    <ImageButton BackgroundColor="Transparent" x:Name="BtnGeografiaPrimeiro" Clicked="GeografiaPrimeiro_Clicked"   Grid.Column="2" Grid.Row="0"/>
+                    <ImageButton BackgroundColor="Transparent" x:Name="BtnHistoriaPrimeiro" Clicked="HistoriaPrimeiro_Clicked"   Grid.Column="2" Grid.Row="1"/>
+                    <ImageButton BackgroundColor="Transparent"  x:Name="BtnArtePrimeiro" Clicked="BtnArtePrimeiro_Clicked"   Grid.Column="2" Grid.Row="2"/>
+                    <ImageButton BackgroundColor="Transparent" x:Name="BtnFilosofiaPrimeiro" Clicked="BtnFilosofiaPrimeiro_Clicked"   Grid.Column="0" Grid.Row="3"/>
+                    <ImageButton BackgroundColor="Transparent" x:Name="BtnEducacaoFisicaPrimeiro" Clicked="BtnEducacaoFisicaPrimeiro_Clicked"   Grid.Column="1" Grid.Row="3"/>
+                    <ImageButton BackgroundColor="Transparent" x:Name="BtnAnalise" Clicked="BtnAnalise_Clicked"   Grid.Column="2" Grid.Row="3"/>
+                    <ImageButton BackgroundColor="Transparent" x:Name="BtnBD1" Clicked="BtnBD1_Clicked"  Grid.Column="0" Grid.Row="4"/>
+                    <ImageButton BackgroundColor="Transparent" x:Name="BtnPW1" Clicked="BtnPW1_Clicked"   Grid.Column="1" Grid.Row="4"/>
+                    <ImageButton BackgroundColor="Transparent" x:Name="BtnLogica" Clicked="BtnLogica_Clicked"  Grid.Column="2" Grid.Row="4"/>
+                    <ImageButton BackgroundColor="Transparent" x:Name="BtnDesignDigital" Clicked="BtnDesignDigital_Clicked"  Grid.Column="0" Grid.Row="5"/>
+                    <ImageButton BackgroundColor="Transparent" x:Name="BtnFundamentos" Clicked="BtnFundamentos_Clicked"   Grid.Column="1" Grid.Row="5"/>
                 </Grid>
             </StackLayout>
         </ScrollView>

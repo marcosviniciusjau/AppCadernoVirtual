@@ -4,14 +4,18 @@
              x:Class="AppCadernoVirtual.MainPage">
     <ContentPage.Content>
 
-        <StackLayout>
+        <StackLayout BackgroundColor="Beige">
             <Grid>
                 <!-- O image armazenará a imagem. O Vertical e o Horizontal Options irá definir a posição da imagem. O Grid.Row irá definir a posição da linha e o Grid.Column a posição da Coluna -->
-                <Image x:Name="logo" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" />
-                <Label Text="Qual o ano?" FontFamily="Arial" FontAttributes="Bold"  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" FontSize="Title" Grid.Row="1" Grid.Column="0" />
-                <ImageButton   x:Name="BtnPrimeiro"  Clicked="Escolha1_Clicked"   Grid.Column="0" Grid.Row="2"/>
-                <ImageButton   x:Name="BtnSegundo" Clicked="Escolha2_Clicked"   Grid.Column="0" Grid.Row="3"/>
-                <ImageButton   x:Name="BtnTerceiro" Clicked="Escolha3_Clicked"   Grid.Column="0" Grid.Row="4"/>
+                <Image x:Name="logo" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="140" 
+                             WidthRequest="235" Grid.Column="0" Grid.Row="0" />
+                <Label Text="Qual o ano?" FontFamily="Arial" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center"  FontSize="Title" Grid.Row="1" Grid.Column="0" />
+                <ImageButton Aspect="AspectFit" 
+                             BackgroundColor="Transparent"
+                             HeightRequest="140" 
+                             WidthRequest="235"  x:Name="BtnPrimeiro"  Clicked="Escolha1_Clicked"   Grid.Column="0" Grid.Row="2"/>
+                <ImageButton BackgroundColor="Transparent"   x:Name="BtnSegundo" Clicked="Escolha2_Clicked"   Grid.Column="0" Grid.Row="3" />
+                <ImageButton  BackgroundColor="Transparent"  x:Name="BtnTerceiro" Clicked="Escolha3_Clicked"   Grid.Column="0" Grid.Row="4"/>
             </Grid>
         </StackLayout>
     </ContentPage.Content>
